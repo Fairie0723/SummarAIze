@@ -58,7 +58,6 @@ def read_word(file):
 if __name__=='__main__':
     pdf_file_path = ""
     page = 0  
-    # pdf_file_path = input("Enter the path to your PDF file: ")
     selection = input("Enter the file type: pdf or docx: ")
     if selection == "pdf":
             pdf_file_path = (input("Enter the path to your PDF file: "))
