@@ -4,7 +4,7 @@ from openai import OpenAI
 import time
 from docx import Document
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'sk-proj-oGkG5hWdwTXHgYqn8fOcT3BlbkFJqdO0xajwcjtRp6F0PN3n'
 client = OpenAI(api_key = OPENAI_API_KEY)
     
 def read_pdf(pdf_file_path,page):
